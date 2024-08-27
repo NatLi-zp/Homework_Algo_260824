@@ -1,0 +1,6 @@
+START
+Number input: a, b,c
+sum = a + b + c
+output sum
+END
+2
