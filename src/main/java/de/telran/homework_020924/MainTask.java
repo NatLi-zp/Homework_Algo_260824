@@ -28,7 +28,7 @@ public class MainTask {
     // task #2 ≈ O(n log n)
     public static void task2() {
         Scanner scanner = new Scanner(System.in); //1
-        System.out.println("введите число n (task2): "); //1
+        System.out.println("Введите число n (task2): "); //1
         int n = scanner.nextInt(); //1
         int i = 0; //1
         int j = 0; //1
