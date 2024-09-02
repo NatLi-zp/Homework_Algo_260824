@@ -1,7 +1,6 @@
 package de.telran.homework_020924;
 
 import java.util.Scanner;
-import java.util.SortedMap;
 
 public class MainTask {
     public static void main(String[] args) {
@@ -57,7 +56,7 @@ public class MainTask {
     //  task #4. Цикл бесконечный. Оценить врем. сложность задачи НЕ возможно.
     public static void task4() {
         Scanner scanner = new Scanner(System.in); //1
-        System.out.println("введите число n (task3): "); //1
+        System.out.println("введите число n (task4): "); //1
         int n = scanner.nextInt(); //1
         int a = 0; //1
         int i = n; //1
