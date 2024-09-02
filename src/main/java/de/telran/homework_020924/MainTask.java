@@ -13,7 +13,7 @@ public class MainTask {
     //task #1 ≈ O(n)
     public static void task1() {
         Scanner scanner = new Scanner(System.in); // 1
-        System.out.println("введите число n (task1): "); //1
+        System.out.println("Введите число n (task1): "); //1
         int n = scanner.nextInt(); //1
         if (n == 1) //1
             return; //1
