@@ -53,7 +53,8 @@ public class MainTask {
             }
     }
 
-    //  task #4. Цикл бесконечный. Оценить врем. сложность задачи НЕ возможно.
+    //  task #4 O(log n)
+    //  Цикл бесконечный. Оценить врем. сложность задачи НЕ возможно. - Мое,  не верно
     public static void task4() {
         Scanner scanner = new Scanner(System.in); //1
         System.out.println("введите число n (task4): "); //1
