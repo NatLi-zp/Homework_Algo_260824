@@ -25,7 +25,6 @@ public class FibonacciTask1 {
         for (int i = 1; i < n + 1; i++) {
             System.out.print(numFibonacciRecursion2(i) + " ");
         }
-
     }
 
     public static int numFibonacciIteration(int n) {
@@ -40,7 +39,6 @@ public class FibonacciTask1 {
 
         }
         return num2;
-
     }
 
     public static int numFibonacciRecursion(int n) {
@@ -51,7 +49,7 @@ public class FibonacciTask1 {
         return numFibonacciRecursion(n - 1) + numFibonacciRecursion(n - 2);
     }
 
-    //спасибо о, великий гугл. Весь этот изврат не понятен)))
+    //спасибо о, Великий Гугл. Без бутылки не разобраться))
     public static int numFibonacciRecursion2(int n) {
         if (n == 0 || n == 1)
             return n;
@@ -65,5 +63,4 @@ public class FibonacciTask1 {
                 return num1 * num1 + num2 * num2;
         }
     }
-
 }
