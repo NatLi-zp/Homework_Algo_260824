@@ -36,7 +36,6 @@ public class FibonacciTask1 {
             num2 = num1 + num0;
             num0 = num1;
             num1 = num2;
-
         }
         return num2;
     }
