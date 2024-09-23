@@ -1,3 +1,4 @@
+// Ваш код идеален, стыдно за плагиат), но лучше не придумать)).
 package de.telran.homework_230924;
 
 import java.util.Arrays;
